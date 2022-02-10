@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import "./styles/Welcome.css";
+import "./styles/Welcome.scss";
 
 export default function Welcome() {
   const [firstcomplete, setFirstcomplete] = useState(false);
@@ -10,7 +10,7 @@ export default function Welcome() {
   };
 
   return (
-    <div className="Welcome">
+    <div className="welcome">
       <div className="welcometext">
         <span>
           {/* Style will be inherited from the parent element */}
