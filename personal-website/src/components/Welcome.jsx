@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./styles/Welcome.scss";
 
+//...
+
 export default function Welcome() {
   const [firstcomplete, setFirstcomplete] = useState(false);
 
@@ -15,7 +17,7 @@ export default function Welcome() {
         <span>
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={["Hello, I'm Alex"]}
+            words={["Hello, My Name is Alex Raffa"]}
             cursor={!firstcomplete}
             cursorStyle="▋"
             typeSpeed={70}
@@ -42,3 +44,5 @@ export default function Welcome() {
     </div>
   );
 }
+
+//after welcome we auto scroll down to the about page
